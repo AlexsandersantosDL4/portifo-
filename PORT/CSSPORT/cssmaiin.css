@@ -1,0 +1,113 @@
+.titulo{
+    background-color: rgb(255, 3, 3);
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 300px;
+    /* border: 2px solid black; */
+    border-radius: 80px;
+    box-shadow: 8px 8px 50px 0px rgba(0, 0, 0);
+}
+#nome{
+    background-color: rgb(145, 10, 10);
+    font-size: 50px;
+    color: rgb(249, 163, 2);
+    margin: 15px 10px;
+    border-radius: 15px;
+    width: 250px;
+}
+.imagens{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px 80px 5px 100px;
+}
+#produtos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+} 
+
+.sobree{
+    display: flex;
+}
+.cards{
+    margin-top: 12px;
+    margin-right: 36px;
+    position: relative; 
+    top: 200px;
+    right: 1470px;
+    background-color: rgba(119, 136, 153, 0.589);
+    border-radius: 15px;
+    height: auto;
+    box-shadow: 9px 11px 5px 6px;
+    width: 400px;
+}
+.cards img{
+    height: 60%;
+    width: 60%;
+}
+#tituulo{
+    background-color: rgba(119, 136, 153, 0.589);
+    text-align: center;
+}
+
+
+
+
+/* .conteiner{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: darkkhaki;
+}
+.caixa{
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 49%;
+    right: 35%;
+    
+   
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------- */
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    /* grid-template-rows: 100px 100px; */
+    /* gap: 20px; */
+
+  /* display: flex;             
+   justify-content:space-evenly; 
+   height: 400px;
+   align-content: center;
+   flex-wrap: wrap;
+   gap: 2px; */
+/* }
+ 
+.item { 
+  width: 80px;
+  height: 80px;
+  background-color: #0fc442;
+  color: rgb(255, 255, 255);
+  display: flex;   
+  align-items: center; 
+  justify-content: center; 
+  flex: 1;
+} */ 
