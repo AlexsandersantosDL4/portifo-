@@ -1,0 +1,26 @@
+.corpo{
+    background-color: rgba(111, 153, 222, 0.677);
+}
+#principal{
+    display: flex;
+    align-items: center;
+    
+
+}
+#principal h1{
+    font-size: 70px;
+    color: black;
+    margin: 100px;
+}
+#principal p{
+    padding-right: 120px;
+    
+}
+#principal foto{
+    box-shadow: 16px 12px 29px 12px;
+    border-radius: 500px;
+    background-color: rgb(228, 236, 3);
+}
+
+
+    

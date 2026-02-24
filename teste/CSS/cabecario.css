@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+#lista{
+    align-items: center; 
+    font-size: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    text-decoration: none;
+}
+.nave a{
+    display: flex;
+    padding-left: 12px;
+    font-size: 51px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin: 50px;
+    justify-content: space-between;
+}
+.nave img{
+    width: 260px;
+    height: 260px;
+}
+.nave a:hover{
+    border-radius: 70px 70px 70px 70px;
+    padding: 5px;
+    margin-top: 5px;
+    transition: 0.5s ;
+    color: rgb(255, 255, 255);
+}
