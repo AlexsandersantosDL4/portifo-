@@ -4,8 +4,6 @@
 #principal{
     display: flex;
     align-items: center;
-    
-
 }
 #principal h1{
     font-size: 70px;
@@ -14,13 +12,45 @@
 }
 #principal p{
     padding-right: 120px;
-    
 }
 #principal foto{
     box-shadow: 16px 12px 29px 12px;
     border-radius: 500px;
     background-color: rgb(228, 236, 3);
 }
+.cards {
+    width: 780px; 
+    border-radius: 12px; /* Cantos arredondados */
+    overflow: hidden; /* Garante que a imagem não "saia" dos cantos arredondados */
+    box-shadow: 12px 0px 2px 9px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    background-color: #1518bf83;
+    font-family: sans-serif;
+    transition: 0.3s;
+    display: flex;
+    padding: 0px 320px;
+}
+.cards:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img {
+    width: 100%; 
+    display: block;
+
+}
+.cards-body {
+    padding: 20px;
+}
+.card-title {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+.card-text {
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.cardiv{
+    margin: 20px;
+}
 
 
-    
