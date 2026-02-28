@@ -1,5 +1,4 @@
 
-
 document.addEventListener("DOMContentLoaded", function () {
 
     const botaoContato = document.querySelector("#btn-contato");

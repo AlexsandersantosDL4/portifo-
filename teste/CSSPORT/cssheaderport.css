@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+}
+ #logo{
+    padding: 30px 0px;
+    height: 150px;
+    justify-content: space-between;
+    
+ }
+
+ #lista{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(189, 7, 7);
+    align-items: center; 
+    font-size: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    
+
+ }
+ #bdy{
+    background-color:rgb(0, 36, 85)
+ }
+ a{
+    text-decoration: none;
+    color: rgb(249, 163, 2);
+ }
+ a :hover{
+text-decoration: none; 
+color: rgb(255, 255, 255);
+transition: width 0.3s;
+box-shadow: 0px 12px 8px 0px rgb(246, 163, 8);
+ }

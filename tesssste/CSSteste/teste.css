@@ -1,0 +1,9 @@
+.hidden {
+    display: none;
+}
+#mensagem-js {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0a66c2;
+    font-weight: bold;
+}
