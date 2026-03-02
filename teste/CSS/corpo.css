@@ -29,21 +29,28 @@
 }
 
 .descricoes{
-    background-color: whitesmoke;
+    background-color: rgba(117, 117, 255, 0.474);
     text-align: center;
-    border-radius: 15px;
-    font-family: Poppins, sans-serif;
-    box-shadow: 5px 4px 10px;
+    border-radius: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-wrap: break-word;
+}
+
+.descricoes :hover{
+     transition: 0.3s;
+    box-shadow: 20px 8px 18px  black;
 }
 #sobremim{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
+    gap: 20px;
+    
 }
 #imagecard{
-    margin-left: 80px;
     padding: 50px;
    height: 300px;
    width: 300px;
+
 }
